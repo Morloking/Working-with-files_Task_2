@@ -15,7 +15,7 @@ int main() {
 		int* arr = new int[size]();
 		if (std::getline(file, line)) {
 			std::istringstream iss(line);
-			int el{0}; int index = 0;
+			int el{0}; int index{0};
 			while (iss >> el&&index <size) {
 				arr[index++] = el;
 			}
